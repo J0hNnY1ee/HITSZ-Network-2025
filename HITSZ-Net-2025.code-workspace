@@ -4,5 +4,12 @@
             "path": "."
         }
     ],
-    "settings": {"cmake.generator": "MinGW Makefiles"}
+    "settings": {
+        "cmake.generator": "MinGW Makefiles",
+        "files.associations": {
+            "udp.h": "c",
+            "ip.h": "c",
+            "stdio.h": "c"
+        }
+    }
 }
